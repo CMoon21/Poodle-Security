@@ -9,6 +9,12 @@ a {
     margin-left: auto;
     margin-right: auto;
 }
+header {
+    margin: -10px -20px -20px -20px;
+    padding:20px;
+    padding-bottom: 0px;
+    color: #F8F9ED;
+}
 .title {
     font-family: 'Black Ops One', sans-serif;
      font-size: 100px;
@@ -45,10 +51,12 @@ a {
     padding-bottom: 0px;
 }
 .visiting{
-   background-color: rgba(148, 215, 232, 0.6);
+    background:url(images/what_we_do_background.png);
+    
 }
 .button:hover {
-    background-color: rgba(148, 215, 232, 0.6);
+    background-color: rgba(53, 102, 148, 0.6);
+;
 }
 body {
 	background-color:#D2D2D0;
@@ -66,6 +74,12 @@ body {
 	margin-right:auto;
 	width:80%;
 }
+.textbox{
+   width: 90ch;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 26px;
+}
 .image {
     text-align:center;
 }
@@ -81,12 +95,12 @@ body {
 th, td {
     padding: 5px;
 }
-header, footer, .box {
+header, footer {
 	text-align: center;
 	background-image:url("https://digitalsynopsis.com/wp-content/uploads/2013/12/subtle-patterns-website-7.gif");
 	color: #F8F9ED;
 }
-header, footer{
+footer{
     margin: 0px -20px -20px -20px;
     padding:20px;
     padding-bottom: 0px;
@@ -116,9 +130,9 @@ header, footer{
     width: 80%;
     border-radius: 5px;
     text-align: center;
-    font-size: 34px;
+    
     border-radius: 3px;
-
+    background:url(images/what_we_do_background.png);
 }
 .title-text{
     font-size: 46px;
@@ -132,7 +146,7 @@ header, footer{
 }
 .list-item{
     border: 0.5px solid rgba(0, 0, 0, 0.7);
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     box-shadow: 0.5px 0.5px 8px 1px rgba(0, 0, 0, 0.5);
     padding: 10px; 
     color: white;
@@ -199,7 +213,7 @@ header, footer{
    display: none;
     
 }
-.fadeInUp{
+.fade-in-up{
     animation-name: fadeInUp;
     animation-duration: 1s;
     animation-fill-mode: both;
@@ -210,6 +224,15 @@ header, footer{
 .animate-later{
     animation-delay: .467s;
 }
+.train-animation {
+    animation-delay: .65s;
+}
+.care-animation {
+    animation-delay: .85s;
+}
+.respect-animation {
+    animation-delay: 1s;
+}
 #training{
     background-image: 
         url(http://dogsinthedetails.com/wp-content/uploads/2015/11/instructions-to-help-you-train-your-dog-properly-5.jpg);
@@ -218,7 +241,13 @@ header, footer{
     background-repeat: no-repeat;
 }
 #caring{
-    background-image: url('take-care-of.jpg');
+    background-image: url(http://cdn.mamamia.com.au/wp/wp-content/uploads/2016/04/27102232/hugging-dogs-is-it-ok-600x315.jpg);
+    background-position: center;
+    background-size: 100% ;
+    background-repeat: no-repeat;
+}
+#respect{
+    background-image: url(https://www.lovethatpet.com/wp-content/uploads/2014/06/dog-paw-and-hand1.jpg);
     background-position: center;
     background-size: 100% ;
     background-repeat: no-repeat;
